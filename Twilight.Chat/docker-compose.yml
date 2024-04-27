@@ -1,0 +1,12 @@
+﻿services:
+  twilight.chat:
+    image: twilight.chat
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  twilight.chat.front:
+    image: twilight.chat.front
+    build:
+      context: .
+      dockerfile: Twilight.Chat.Front/Dockerfile

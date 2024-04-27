@@ -1,0 +1,6 @@
+@Twilight.Chat_HostAddress = http://localhost:5236
+
+GET {{Twilight.Chat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

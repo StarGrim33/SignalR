@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilight.Chat", "Twilight.Chat.csproj", "{98392315-FB01-4B69-B3AB-BCA3D59ACC89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C5CAA1A-23C4-4A29-9269-BDDFA5134FF6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilight.Chat.Front", "Twilight.Chat.Front\Twilight.Chat.Front.csproj", "{4A2434CD-28E8-460D-B4B2-76C871D657CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98392315-FB01-4B69-B3AB-BCA3D59ACC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98392315-FB01-4B69-B3AB-BCA3D59ACC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98392315-FB01-4B69-B3AB-BCA3D59ACC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98392315-FB01-4B69-B3AB-BCA3D59ACC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2434CD-28E8-460D-B4B2-76C871D657CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2434CD-28E8-460D-B4B2-76C871D657CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2434CD-28E8-460D-B4B2-76C871D657CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2434CD-28E8-460D-B4B2-76C871D657CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
